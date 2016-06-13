@@ -4,3 +4,4 @@ var HoneyMakerBee = function() {
 
 };
 
+HoneyMakerBee.prototype = Object.create(Bee.prototype);
