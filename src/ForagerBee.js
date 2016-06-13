@@ -3,3 +3,4 @@ var ForagerBee = function() {
   this.job = "find pollen";
 };
 
+ForagerBee.prototype = Object.create(Bee.prototype)
